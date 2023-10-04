@@ -20,7 +20,7 @@ public class Signup extends HttpServlet{
 			PrintWriter out = res.getWriter();
 			res.setContentType("text/html");
 			
-			res.sendRedirect("index.html" + user);
+			res.sendRedirect("index.html");
 		} catch (Exception e) {
 			e.printStackTrace();
 			// TODO: handle exception

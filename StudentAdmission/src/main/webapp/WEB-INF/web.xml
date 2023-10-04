@@ -10,6 +10,16 @@
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
  
+ <servlet>
+    <servlet-name>Signup</servlet-name>
+    <servlet-class>com.auca.Signup</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Signup</servlet-name>
+    <url-pattern>/signup</url-pattern>
+</servlet-mapping>
+ 
   <servlet>
   <servlet-name>Register</servlet-name>
   	<servlet-class>com.auca.Register</servlet-class>
