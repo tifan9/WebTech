@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>SignUp</header>
+      <form action="signup"method="post">
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="text" placeholder="Enter Email" name="email" class="email" />
+          </div>
+        </div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter password"
+              class="password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+        </div>
+        
+        <div class="input-field button">
+          <input type="submit" value="Signup"/>
+        </div>
+        <p>Forgot Password? <a href="forgotpass.html">Click Here!</a></p>
+
+      </form>
+    </div>
+
+  </body>
+</html>
